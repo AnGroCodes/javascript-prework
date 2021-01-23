@@ -1,10 +1,12 @@
-let argButtonName, buttonPaper, buttonRock, buttonScissors;
+let argButtonName; 
+var buttonPaper, buttonRock, buttonScissors;
 
 /**
  * Describe this function...
  */
 function buttonClicked(argButtonName) {
   clearMessages();
+
   let argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber;
 
   /**
